@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -11,11 +11,47 @@ import {
   FaFacebook,
   FaBehance,
 } from "react-icons/fa";
+import Swal from "sweetalert2";
 
 export default function ContactSection() {
+
+
+  const [result, setResult] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setIsLoading(true);
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "9c9c98e0-60fc-42f0-bf51-97de0790b8db");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      Swal.fire({
+        title: "Successfull!",
+        text: "Your Message has been sent Successfull!",
+        icon: "success",
+      });
+      setIsLoading(false);
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+
 
   return (
     <section id="contact" className="bg-gray-900 text-white py-20 px-4 border-t-4">
@@ -38,7 +74,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Email</p>
-                <p className="font-medium">yourname@example.com</p>
+                <p className="font-medium">Sandraamaka23@gmail.com</p>
               </div>
             </div>
 
@@ -48,7 +84,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Phone</p>
-                <p className="font-medium">+123 456 7890</p>
+                <p className="font-medium">+234 818 621 2047</p>
               </div>
             </div>
 
@@ -82,10 +118,11 @@ export default function ContactSection() {
             </div>
           </div>
           {/* Form */}
-          <form data-aos="fade-up" className="bg-white rounded-2xl p-8 text-gray-800 shadow-lg">
+          <form data-aos="fade-up" className="bg-white rounded-2xl p-8 text-gray-800 shadow-lg" onSubmit={onSubmit}>
             <div className="mb-5">
               <label className="block text-sm font-medium mb-2">Name</label>
               <input
+              name="Name"
                 type="text"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="Your Name"
@@ -94,6 +131,7 @@ export default function ContactSection() {
             <div className="mb-5">
               <label className="block text-sm font-medium mb-2">Email</label>
               <input
+              name="Email"
                 type="email"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="you@example.com"
@@ -102,6 +140,7 @@ export default function ContactSection() {
             <div className="mb-5">
               <label className="block text-sm font-medium mb-2">Message</label>
               <textarea
+              name="Message"
                 rows={5}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
                 placeholder="Write your message..."
@@ -111,7 +150,8 @@ export default function ContactSection() {
               type="submit"
               className="w-full bg-orange-500 text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition duration-300"
             >
-              Send Message
+               {isLoading ? "Sending" : "Send Message"}
+               <span className="text-xl ml-2">➔</span>
             </button>
           </form>
 

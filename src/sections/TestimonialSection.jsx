@@ -8,38 +8,38 @@ import { useEffect } from "react";
 
 const testimonials = [
     {
-        name: "Linda Williams",
+        name: "Loveth",
         role: "Creative Director",
         message:
-          "His design skills are world-class. Every project is delivered with precision and excellence.",
-        image: "/assets/testimonail2.jpg",
+          "Her design skills are world-class. Every project is delivered with precision and excellence.",
+        image: "/assets/tesmonial2.avif",
       },
   {
     name: "Sarah Johnson",
     role: "Product Manager",
     message:
-      "Working with Moses was a pleasure! His attention to detail and creativity are unmatched.",
+      "Working with Sandra was a pleasure! His attention to detail and creativity are unmatched.",
     image: "/assets/testimonail.jpg",
   },
   {
     name: "Daniel Smith",
     role: "CEO, StartNow",
     message:
-      "Moses exceeded our expectations. He transformed our vision into a stunning, functional product.",
-    image: "/assets/testimonail2.jpg",
+      "Sandra exceeded our expectations. He transformed our vision into a stunning, functional product.",
+    image: "/assets/tesmonial3.avif",
+  },
+  {
+    name: "John Williams",
+    role: "Creative Director",
+    message:
+      "Her design skills are world-class. Every project is delivered with precision and excellence.",
+    image: "/assets/tesmonial4.avif",
   },
   {
     name: "Linda Williams",
     role: "Creative Director",
     message:
-      "His design skills are world-class. Every project is delivered with precision and excellence.",
-    image: "/assets/testimonail.jpg",
-  },
-  {
-    name: "Linda Williams",
-    role: "Creative Director",
-    message:
-      "His design skills are world-class. Every project is delivered with precision and excellence.",
+      "Her design skills are world-class. Every project is delivered with precision and excellence.",
     image: "/assets/testimonail2.jpg",
   },
 ];
@@ -86,7 +86,7 @@ export default function TestimonialSection() {
                     className="w-12 h-12 rounded-full mr-4 object-cover"
                   />
                   <div>
-                    <h4 className="font-semibold">{testimonial.name}</h4>
+                    <h4 className="font-semibold text-black">{testimonial.name}</h4>
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </div>

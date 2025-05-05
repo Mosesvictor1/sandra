@@ -77,7 +77,7 @@ export default function Hero() {
               recommended!
             </p>
             <div className="mt-6">
-              <h3 className="text-3xl font-bold text-red-600">450+</h3>
+              <h3 className="text-3xl font-bold text-red-600">10+</h3>
               <p className="text-gray-700">Clients Served</p>
             </div>
             <div className="relative mt-4">
@@ -108,7 +108,7 @@ export default function Hero() {
                 <FaStar key={i} className="text-red-500 text-xl" />
               ))}
             </div>
-            <h3 className="text-3xl font-bold">10 Years</h3>
+            <h3 className="text-3xl font-bold">3 Years</h3>
             <div className="border-t-2 border-black w-36 mt-2 ml-auto"></div>
             <p className="text-xl text-gray-700 mt-1">Expertise</p>
           </div>

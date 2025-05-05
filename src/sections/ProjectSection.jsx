@@ -8,28 +8,24 @@ import { useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from 'lucide-react'; // or use your icon lib
 
 const projects = [
+
   {
-    title: 'E-Commerce Platform',
-    image: '/assets/landingpage.png',
-    description: 'A full-featured e-commerce platform with shopping cart, payment gateway, and admin dashboard.'
-  },
-  {
-    title: 'Charity Foundation Website',
+    title: 'Appointment Website',
     image: '/assets/webdesign.png',
-    description: 'Custom-designed website for a non-profit organization with donation integration.'
+    description: 'Custom-designed website for a Appointment organization.'
   },
   {
-    title: 'Portfolio Website',
+    title: 'Banking App',
+    image: '/assets/download.jpg',
+    description: 'A full-featured Banking App with payment features'
+  },
+  {
+    title: 'restaurants Platform',
     image: '/assets/landingpage.png',
-    description: 'Modern personal portfolio with 3D icons and smooth animations.'
+    description: 'A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.'
   },
   {
-    title: 'Learning Platform',
-    image: '/assets/webdesign.png',
-    description: 'Online education platform with quizzes, live classes, and student progress tracking.'
-  },
-  {
-    title: 'Restaurant Ordering App',
+    title: 'App',
     image: '/assets/webdesign.png',
     description: 'Interactive UI for ordering food online with real-time order tracking.'
   },
