@@ -58,12 +58,22 @@ export default function Hero() {
             className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col sm:flex-row items-center gap-4 z-30"
             // data-aos="zoom-in"
           >
-            <button className="bg-red-500 hover:bg-red-600 text-white font-medium px-8 py-3 rounded-full flex items-center shadow-md transition">
-              Portfolio <FaArrowRight className="ml-2" />
+            <button
+              className="bg-red-500 hover:bg-red-600 text-white font-medium px-8 py-3 rounded-full flex items-center shadow-md transition"
+              onClick={() =>
+                window.open(
+                  "https://wa.me/2348186212047?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20to%20discuss%20your%20services%2C%20can%20you%20please%20provide%20more%20details%3F%0A%0Ahttps%3A%2F%2Fsandra-kappa.vercel.app",
+                  "_blank"
+                )
+              }
+            >
+              Appointment <FaArrowRight className="ml-2" />
             </button>
-            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-medium px-8 py-3 rounded-full shadow-sm transition">
-              Hire Me
-            </button>
+            <a href="#contact">
+              <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-medium px-8 py-3 rounded-full shadow-sm transition">
+                Hire Me
+              </button>
+            </a>
           </div>
 
           {/* Testimonial */}
