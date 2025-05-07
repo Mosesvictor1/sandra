@@ -12,7 +12,8 @@ const projects = [
   {
     title: 'Appointment Website',
     image: '/assets/webdesign.png',
-    description: 'Custom-designed website for a Appointment organization.'
+    description: 'Custom-designed website for a Appointment organization.',
+    link: "https://moses-care.vercel.app/",
   },
   {
     title: 'Banking App',
@@ -22,7 +23,8 @@ const projects = [
   {
     title: 'restaurants Platform',
     image: '/assets/landingpage.png',
-    description: 'A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.'
+    description: 'A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.',
+    link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
   },
   {
     title: 'App',
@@ -82,6 +84,9 @@ export default function ProjectsSection() {
                 />
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">{project.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{project.description}</p>
+                <a href={project.link} target='_blank' className='bg bg-orange-600 py-2 rounded-lg mt-3'>
+                  View Project
+                </a>
               </div>
             </SwiperSlide>
           ))}

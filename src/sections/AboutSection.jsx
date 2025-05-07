@@ -40,11 +40,11 @@ export default function AboutSection() {
 
         {/* Text */}
         <div
-          className="text-center md:text-left w-full md:w-1/2"
+          className="text-center md:text-left w-full md:w-1/2 #contact"
           data-aos="fade-left"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-50 leading-snug">
-            Why You <span className="text-[#FF3C00]">Hire Me</span> <br />
+            Why You <span className="text-[#FF3C00]"><a href="#contact">Hire Me</a></span> <br />
             for Your Next Projects?
           </h2>
           <p className="text-gray-50 mt-4 mb-8 max-w-md mx-auto md:mx-0">

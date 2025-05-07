@@ -15,18 +15,21 @@ export default function Services() {
       img: "/assets/uiux.png", // Update with your actual image
       active: false,
       aos: "fade-right",
+      link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
     },
     {
       title: "Web Design",
       img: "/assets/webdesign.png", // Update with your actual image
       active: true,
       aos: "zoom-in",
+      link: "https://moses-care.vercel.app/",
     },
     {
       title: "Landing Page",
       img: "/assets/landingpage.png", // Update with your actual image
       active: false,
       aos: "fade-left",
+      link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
     },
   ];
 
@@ -72,13 +75,15 @@ export default function Services() {
 
                 {/* Arrow Button */}
                 <div className="absolute bottom-4 right-4 z-50">
-                  <button
+                 <a href={service.link} target="_blank">
+                 <button
                     className={`rounded-full p-3 text-white text-4xl shadow-md transition ${
                       service.active ? "bg-orange-500" : "bg-orange-500"
                     }`}
                   >
                     <FaArrowUpRightFromSquare />
                   </button>
+                 </a>
                 </div>
               </div>
             </div>
