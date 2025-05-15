@@ -42,7 +42,7 @@ export default function Services() {
             My <span className="text-orange-500">Services</span>
           </h2>
           <p className="text-gray-400 mt-2 max-w-xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            I blend creativity with functionality, by designing intuitive digital spaces that reflect both purpose and personality from user interfaces to web and visual design.
           </p>
           <hr className="mt-6 border-gray-600 w-24 mx-auto" />
         </div>

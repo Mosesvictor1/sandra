@@ -10,7 +10,10 @@ export default function AboutSection() {
   }, []);
 
   return (
-    <section className="bg-gray-900 text-white py-16 md:py-24 px-4 md:px-12 rounded-t-[30px] border-b-4" id="about">
+    <section
+      className="bg-gray-900 text-white py-16 md:py-24 px-4 md:px-12 rounded-t-[30px] border-b-4"
+      id="about"
+    >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Image */}
         <div
@@ -44,13 +47,20 @@ export default function AboutSection() {
           data-aos="fade-left"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-50 leading-snug">
-            Why You <span className="text-[#FF3C00]"><a href="#contact">Hire Me</a></span> <br />
+            Why You{" "}
+            <span className="text-[#FF3C00]">
+              <a href="#contact">Hire Me</a>
+            </span>{" "}
+            <br />
             for Your Next Projects?
           </h2>
-          <p className="text-gray-50 mt-4 mb-8 max-w-md mx-auto md:mx-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam.
+          <p className="text-gray-50 text-xs md:text-lg mt-4 mb-8 max-w-md mx-auto md:mx-0">
+            Because I care as much about your goals as you do. I don’t approach
+            projects as just tasks to complete, I see them as opportunities to
+            bring your vision to life in a way that feels personal, purposeful,
+            and powerful. I blend design, strategy, and storytelling to craft
+            digital experiences that not only look stunning but function
+            seamlessly across devices and users.
           </p>
 
           {/* Stats */}
@@ -64,11 +74,12 @@ export default function AboutSection() {
               <p className="text-gray-50 text-sm">Industry Covered</p>
             </div>
           </div>
-
           {/* Button */}
-          <button className="px-6 py-2 rounded-full border-2 border-[#FF3C00] text-[#FF3C00] font-semibold hover:bg-[#FF3C00] hover:text-white transition duration-300">
+          <a href="#contact">
+            <button className="px-6 py-2 rounded-full border-2 border-[#FF3C00] text-[#FF3C00] font-semibold hover:bg-[#FF3C00] hover:text-white transition duration-300">
             Hire Me
           </button>
+          </a>
         </div>
       </div>
     </section>
