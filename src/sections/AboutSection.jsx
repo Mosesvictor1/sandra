@@ -47,7 +47,7 @@ export default function AboutSection() {
           data-aos="fade-left"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-50 leading-snug">
-            Why You{" "}
+            Why You Should{" "}
             <span className="text-[#FF3C00]">
               <a href="#contact">Hire Me</a>
             </span>{" "}
