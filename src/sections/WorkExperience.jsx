@@ -14,7 +14,7 @@ const WorkExperience = () => {
       period: "Sep 2020 - July 2023",
       role: "Visual Designer",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "- Designed visually appealing and user-friendly interfaces for web and mobile applications",
       dotColor: "bg-orange-500",
     },
     {
@@ -23,7 +23,7 @@ const WorkExperience = () => {
       period: "Aug 2016 - Sep 2020",
       role: "UI/UX Designer",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "- Conducted user research and testing to inform design decisions, using tools like UserTesting and TryMyUI",
       dotColor: "bg-gray-600",
     },
     {
@@ -32,7 +32,7 @@ const WorkExperience = () => {
       period: "Sep 2015 - Aug 2016",
       role: "Web Designer",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        "- Designed and developed responsive websites for clients in various industries",
       dotColor: "bg-orange-500",
     },
   ];

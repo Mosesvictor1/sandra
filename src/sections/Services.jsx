@@ -25,8 +25,8 @@ export default function Services() {
       link: "https://moses-care.vercel.app/",
     },
     {
-      title: "Landing Page",
-      img: "/assets/landingpage.png", // Update with your actual image
+      title: "Visual arts",
+      img: "/assets/visual.jpg", // Update with your actual image
       active: false,
       aos: "fade-left",
       link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",

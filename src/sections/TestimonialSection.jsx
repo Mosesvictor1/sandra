@@ -7,39 +7,39 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 const testimonials = [
-    {
-        name: "Loveth",
-        role: "Creative Director",
-        message:
-          "Her design skills are world-class. Every project is delivered with precision and excellence.",
-        image: "/assets/tesmonial2.avif",
-      },
   {
-    name: "Sarah Johnson",
+    name: "Loveth",
+    role: "Creative Director",
+    message:
+      "Her design skills are world-class. Every project is delivered with precision and excellence.",
+    image: "/assets/tesmonial2.avif",
+  },
+  {
+    name: "Tombra",
     role: "Product Manager",
     message:
-      "Working with Sandra was a pleasure! His attention to detail and creativity are unmatched.",
+      "Working with Sandra was a breath of fresh air. She's super easy to collaborate with and always thinks about the user first. Her designs made everything seamless and user friendly",
     image: "/assets/testimonail.jpg",
   },
   {
-    name: "Daniel Smith",
-    role: "CEO, StartNow",
+    name: "— Moses",
+    role: "UX Designer",
     message:
-      "Sandra exceeded our expectations. He transformed our vision into a stunning, functional product.",
+      "While working with Sandra she brought  so much creativity and calm to the team. She's always open to feedback, quick to help others, and her designs have this clean, thoughtful vibe that users Realll connect with.",
     image: "/assets/tesmonial3.avif",
   },
   {
     name: "John Williams",
     role: "Creative Director",
     message:
-      "Her design skills are world-class. Every project is delivered with precision and excellence.",
+      "Sandra has an amazing eye for detail and a natural sense for what works. Watching her grow into such a confident, creative designer has been inspiring.",
     image: "/assets/tesmonial4.avif",
   },
   {
     name: "Linda Williams",
     role: "Creative Director",
     message:
-      "Her design skills are world-class. Every project is delivered with precision and excellence.",
+      "She delivers projects with precision and excellence, showcasing her exceptional design expertise.",
     image: "/assets/testimonail2.jpg",
   },
 ];
@@ -86,7 +86,9 @@ export default function TestimonialSection() {
                     className="w-12 h-12 rounded-full mr-4 object-cover"
                   />
                   <div>
-                    <h4 className="font-semibold text-black">{testimonial.name}</h4>
+                    <h4 className="font-semibold text-black">
+                      {testimonial.name}
+                    </h4>
                     <p className="text-sm text-gray-500">{testimonial.role}</p>
                   </div>
                 </div>

@@ -1,35 +1,37 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
-import { useEffect } from 'react';
-import { ArrowLeft, ArrowRight } from 'lucide-react'; // or use your icon lib
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
+import { ArrowLeft, ArrowRight } from "lucide-react"; // or use your icon lib
 
 const projects = [
-
   {
-    title: 'Appointment Website',
-    image: '/assets/webdesign.png',
-    description: 'Custom-designed website for a Appointment organization.',
+    title: "Appointment Website",
+    image: "/assets/webdesign.png",
+    description: "Custom-designed website for a Appointment organization.",
     link: "https://moses-care.vercel.app/",
   },
   {
-    title: 'Banking App',
-    image: '/assets/download.jpg',
-    description: 'A full-featured Banking App with payment features'
+    title: "fintech App",
+    image: "/assets/project2a.jpg",
+    description: "A full-featured Banking App with payment features",
+    link: "https://www.behance.net/gallery/225730039/LUNANEST-CRYPTOCURENCY-TRADING-APP",
   },
   {
-    title: 'restaurants Platform',
-    image: '/assets/landingpage.png',
-    description: 'A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.',
+    title: "restaurants Platform",
+    image: "/assets/landingpage.png",
+    description:
+      "A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.",
     link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
   },
   {
-    title: 'App',
-    image: '/assets/webdesign.png',
-    description: 'Interactive UI for ordering food online with real-time order tracking.'
+    title: "App",
+    image: "/assets/webdesign.png",
+    description:
+      "Interactive UI for ordering food online with real-time order tracking.",
   },
 ];
 
@@ -39,11 +41,18 @@ export default function ProjectsSection() {
   }, []);
 
   return (
-    <section id="project" className="py-20 bg-gray-900 text-center text-white relative">
+    <section
+      id="project"
+      className="py-20 bg-gray-900 text-center text-white relative"
+    >
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-10" data-aos="fade-up">
-          <p className="text-sm text-orange-500 font-bold uppercase tracking-widest">Projects</p>
-          <h2 className="text-3xl md:text-4xl font-bold mt-2">Recent Work Highlights</h2>
+          <p className="text-sm text-orange-500 font-bold uppercase tracking-widest">
+            Projects
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mt-2">
+            Recent Work Highlights
+          </h2>
         </div>
 
         {/* Custom Arrows */}
@@ -60,7 +69,7 @@ export default function ProjectsSection() {
 
         <Swiper
           modules={[Navigation, Autoplay]}
-          navigation={{ nextEl: '.custom-next', prevEl: '.custom-prev' }}
+          navigation={{ nextEl: ".custom-next", prevEl: ".custom-prev" }}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           spaceBetween={30}
           slidesPerView={1}
@@ -82,9 +91,17 @@ export default function ProjectsSection() {
                   alt={project.title}
                   className="w-full h-56 object-cover rounded-xl mb-4"
                 />
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">{project.title}</h3>
-                <p className="text-gray-600 text-sm leading-relaxed">{project.description}</p>
-                <a href={project.link} target='_blank' className='bg bg-orange-600 py-2 rounded-lg mt-3'>
+                <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {project.description}
+                </p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className="bg bg-orange-600 py-2 rounded-lg mt-3"
+                >
                   View Project
                 </a>
               </div>
