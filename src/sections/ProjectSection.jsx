@@ -17,7 +17,7 @@ const projects = [
   {
     title: "fintech App",
     image: "/assets/project2a.jpg",
-    description: "A full-featured Banking App with payment features",
+    description: "A full-featured Trading App with payment features",
     link: "https://www.behance.net/gallery/225730039/LUNANEST-CRYPTOCURENCY-TRADING-APP",
   },
   {
@@ -25,13 +25,13 @@ const projects = [
     image: "/assets/landingpage.png",
     description:
       "A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.",
-    link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
+    link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f1",
   },
   {
-    title: "App",
-    image: "/assets/webdesign.png",
-    description:
-      "Interactive UI for ordering food online with real-time order tracking.",
+    title: "Pregnancy  App",
+    image: "/assets/project2b.jpg",
+    description: "Interactive UI for pregnant women",
+    link: "https://www.figma.com/design/JVOT4gKYWYZ8Ykz7eMJtW9/MAMA-S-BLOOM?node-id=0-1&t=ybcBXvDzLZOMr9ov-1",
   },
 ];
 

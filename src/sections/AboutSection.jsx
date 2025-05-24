@@ -75,10 +75,10 @@ export default function AboutSection() {
             </div>
           </div>
           {/* Button */}
-          <a href="#contact">
+          <a href="/assets/Sandra-CV.pdf" download>
             <button className="px-6 py-2 rounded-full border-2 border-[#FF3C00] text-[#FF3C00] font-semibold hover:bg-[#FF3C00] hover:text-white transition duration-300">
-            Hire Me
-          </button>
+              Download CV
+            </button>
           </a>
         </div>
       </div>
