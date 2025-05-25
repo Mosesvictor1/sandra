@@ -10,29 +10,29 @@ const WorkExperience = () => {
   const experiences = [
     {
       id: 1,
-      company: "Self-Employed, NYC",
-      period: "Sep 2020 - July 2023",
-      role: "Visual Designer",
+      company: "Flip to Tech, Abuja, Nigeria ",
+      period: "June. 2024 - Present",
+      role: "Ui/Ux & Web Design ",
       description:
-        "- Designed visually appealing and user-friendly interfaces for web and mobile applications",
+        "- Assisted in creating wireframes, prototypes, and mockups using tools like Figma and Adobe XD. Conducted user research and usability testing to improve product design and enhance user experience",
       dotColor: "bg-orange-500",
     },
     {
       id: 2,
-      company: "Insightancer",
-      period: "Aug 2016 - Sep 2020",
-      role: "UI/UX Designer",
+      company: "Allocentric Travels&Tours, Abuja, Nigeria ",
+      period: "Sept. 2023 – May 2024",
+      role: "Product Design Intern",
       description:
-        "- Conducted user research and testing to inform design decisions, using tools like UserTesting and TryMyUI",
+        "- Gathered feedback from real or test users on the travel platform -	Identified pain point in the user experience and suggested designs improvements based on user behavioral and needs. -	 focus on simplifying navigation and reducing user frustration during checkouts or itinerary building -	Used to like Figma Adobe XD or sketch to design low and high fidelity wire frames",
       dotColor: "bg-gray-600",
     },
     {
       id: 3,
-      company: "KG Design Studio",
-      period: "Sep 2015 - Aug 2016",
-      role: "Web Designer",
+      company: "Labano Academy, Abuja, Nigeria",
+      period: "Mar. 2023 – Aug 2023",
+      role: "Ui/Ux design Intern",
       description:
-        "- Designed and developed responsive websites for clients in various industries",
+        "- Created wireframes, mockups, and design systems for web and mobile applications using Figma. -	Participated in user interviews and feedback sessions to enhance product usability and engagement. -	Collaborated with developers to ensure pixel-perfect implementation of designs. -	Contributed to UX documentation and presentation materials for internal reviews.Skills: UX Research · Wire framing · Prototyping · UI Design · Product Design · Team Collaboration.",
       dotColor: "bg-orange-500",
     },
   ];

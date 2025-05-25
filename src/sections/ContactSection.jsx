@@ -96,7 +96,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <p className="text-gray-400 text-sm">Location</p>
-                <p className="font-medium">Lagos, Nigeria</p>
+                <p className="font-medium">Abuja, Nigeria</p>
               </div>
             </div>
 

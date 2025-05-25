@@ -9,10 +9,10 @@ import { ArrowLeft, ArrowRight } from "lucide-react"; // or use your icon lib
 
 const projects = [
   {
-    title: "Appointment Website",
-    image: "/assets/webdesign.png",
-    description: "Custom-designed website for a Appointment organization.",
-    link: "https://moses-care.vercel.app/",
+    title: "e-commerce Website",
+    image: "/assets/project2c.jpg",
+    description: "Trendive is an e-commerce shopping app for online Shopping",
+    link: "https://www.figma.com/design/s05bG2Vm9JmzJRyXhv6KPT/TRENDIVE?node-id=0-1&t=PSqN0F7gDpzmtsQa-1",
   },
   {
     title: "fintech App",
@@ -31,7 +31,7 @@ const projects = [
     title: "Pregnancy  App",
     image: "/assets/project2b.jpg",
     description: "Interactive UI for pregnant women",
-    link: "https://www.figma.com/design/JVOT4gKYWYZ8Ykz7eMJtW9/MAMA-S-BLOOM?node-id=0-1&t=ybcBXvDzLZOMr9ov-1",
+    link: "https://www.behance.net/gallery/226568921/MAMAS-BLOOM",
   },
 ];
 
