@@ -9,9 +9,9 @@ import { ArrowLeft, ArrowRight } from "lucide-react"; // or use your icon lib
 
 const projects = [
   {
-    title: "e-commerce Website",
+    title: "e-commerce App",
     image: "/assets/project2c.jpg",
-    description: "Trendive is an e-commerce shopping app for online Shopping",
+    description: "Trendive is an e-commerce shopping app for online Shopping",
     link: "https://www.figma.com/design/s05bG2Vm9JmzJRyXhv6KPT/TRENDIVE?node-id=0-1&t=PSqN0F7gDpzmtsQa-1",
   },
   {
@@ -22,10 +22,10 @@ const projects = [
   },
   {
     title: "restaurants Platform",
-    image: "/assets/landingpage.png",
+    image: "/assets/project2d.jpg",
     description:
-      "A full-featured restaurants platform with shopping cart, payment gateway, and admin dashboard.",
-    link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f1",
+      "Allocentric Travels is a travel service company that curates adventurous and culturally rich experiences for bold, curious explorers.",
+    link: "https://allocentrictravels.com/",
   },
   {
     title: "Pregnancy  App",

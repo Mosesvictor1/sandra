@@ -82,7 +82,7 @@ const WorkExperience = () => {
                 <div
                   className={`w-4 h-4 rounded-full border-2 border-white mr-2 ${exp.dotColor}`}
                 ></div>
-                <span className="text-sm text-gray-400">{exp.period}</span>
+                {/* <span className="text-sm text-gray-400">{exp.period}</span> */}
               </div>
 
               {/* Right - Role & Description */}

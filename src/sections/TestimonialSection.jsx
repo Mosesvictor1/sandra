@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const testimonials = [
   {
-    name: "Loveth",
+    name: "Chidima",
     role: "Creative Director",
     message:
       "Her design skills are world-class. Every project is delivered with precision and excellence.",
@@ -36,7 +36,7 @@ const testimonials = [
     image: "/assets/tesmonial4.avif",
   },
   {
-    name: "Linda Williams",
+    name: "Linda",
     role: "Creative Director",
     message:
       "She delivers projects with precision and excellence, showcasing her exceptional design expertise.",

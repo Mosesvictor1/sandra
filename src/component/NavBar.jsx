@@ -52,12 +52,12 @@ function NavBar() {
 
         {/* Right: Desktop Links */}
         <div className="hidden md:flex space-x-6">
-          <a
+          {/* <a
             href="#resume"
             className="text-white hover:text-gray-300 transition font-semibold"
           >
             Resume
-          </a>
+          </a> */}
           <a
             href="#project"
             className="text-white hover:text-gray-300 transition font-semibold"
@@ -97,12 +97,12 @@ function NavBar() {
         >
           Service
         </a>
-        <a
+        {/* <a
           href="#resume"
           className="text-white hover:text-gray-300 transition font-semibold"
         >
           Resume
-        </a>
+        </a> */}
         <a
           href="#project"
           className="text-white hover:text-gray-300 transition font-semibold"
