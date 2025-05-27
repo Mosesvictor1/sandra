@@ -14,7 +14,7 @@ const WorkExperience = () => {
       period: "June. 2024 - Present",
       role: "Ui/Ux & Web Design ",
       description:
-        "- Assisted in creating wireframes, prototypes, and mockups using tools like Figma and Adobe XD. Conducted user research and usability testing to improve product design and enhance user experience",
+        "- Supported front-end web development using HTML, CSS, and basic JavaScript for interactive features.-	Participated in brainstorming sessions and contributed creative ideas to improve visual design and navigation flow.",
       dotColor: "bg-orange-500",
     },
     {
@@ -23,7 +23,7 @@ const WorkExperience = () => {
       period: "Sept. 2023 – May 2024",
       role: "Product Design Intern",
       description:
-        "- Gathered feedback from real or test users on the travel platform -	Identified pain point in the user experience and suggested designs improvements based on user behavioral and needs. -	 focus on simplifying navigation and reducing user frustration during checkouts or itinerary building -	Used to like Figma Adobe XD or sketch to design low and high fidelity wire frames",
+        "-	Gathered feedback from real or test users on the travel platform . -	Identified pain point in the user experience and suggested designs improvements based on user behavioral and needs.",
       dotColor: "bg-gray-600",
     },
     {
@@ -32,7 +32,7 @@ const WorkExperience = () => {
       period: "Mar. 2023 – Aug 2023",
       role: "Ui/Ux design Intern",
       description:
-        "- Created wireframes, mockups, and design systems for web and mobile applications using Figma. -	Participated in user interviews and feedback sessions to enhance product usability and engagement. -	Collaborated with developers to ensure pixel-perfect implementation of designs. -	Contributed to UX documentation and presentation materials for internal reviews.Skills: UX Research · Wire framing · Prototyping · UI Design · Product Design · Team Collaboration.",
+        "-	Created wireframes, mockups, and design systems for web and mobile applications using Figma. -	Contributed to UX documentation and presentation materials for internal reviews.",
       dotColor: "bg-orange-500",
     },
   ];

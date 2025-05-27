@@ -22,7 +22,7 @@ const testimonials = [
     image: "/assets/testimonail.jpg",
   },
   {
-    name: "— Moses",
+    name: "— Favour Loveth",
     role: "UX Designer",
     message:
       "While working with Sandra she brought  so much creativity and calm to the team. She's always open to feedback, quick to help others, and her designs have this clean, thoughtful vibe that users Realll connect with.",

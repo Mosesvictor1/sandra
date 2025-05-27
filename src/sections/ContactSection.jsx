@@ -109,12 +109,7 @@ export default function ContactSection() {
               >
                 <FaLinkedin />
               </a>
-              <a
-                href="#"
-                className="text-orange-500 hover:text-white transition text-xl"
-              >
-                <FaInstagram />
-              </a>
+              
               <a
                 href="https://x.com/cassiebe2?s=21"
                 target="_blank"
