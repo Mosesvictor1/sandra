@@ -9,16 +9,16 @@ import { ArrowLeft, ArrowRight } from "lucide-react"; // or use your icon lib
 
 const projects = [
   {
-    title: "e-commerce App",
+    title: "E-eommerce App",
     image: "/assets/project2c.jpg",
     description:
       "Trendive is a fashion-forward app that helps users discover, track, and shop the latest style trends in real time.",
     link: "https://www.figma.com/design/s05bG2Vm9JmzJRyXhv6KPT/TRENDIVE?node-id=0-1&t=PSqN0F7gDpzmtsQa-1",
   },
   {
-    title: "fintech App",
+    title: "Fintech App",
     image: "/assets/project2a.jpg",
-    description: "A full-featured Trading App with payment features",
+    description: "LunaNest is a fintech trading app that simplifies investing and asset management for users of all experience levels.",
     link: "https://www.behance.net/gallery/225730039/LUNANEST-CRYPTOCURENCY-TRADING-APP",
   },
   {
