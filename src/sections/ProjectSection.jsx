@@ -11,7 +11,8 @@ const projects = [
   {
     title: "e-commerce App",
     image: "/assets/project2c.jpg",
-    description: "Trendive is an e-commerce shopping app for online Shopping",
+    description:
+      "Trendive is a fashion-forward app that helps users discover, track, and shop the latest style trends in real time.",
     link: "https://www.figma.com/design/s05bG2Vm9JmzJRyXhv6KPT/TRENDIVE?node-id=0-1&t=PSqN0F7gDpzmtsQa-1",
   },
   {
@@ -21,7 +22,7 @@ const projects = [
     link: "https://www.behance.net/gallery/225730039/LUNANEST-CRYPTOCURENCY-TRADING-APP",
   },
   {
-    title: "restaurants Platform",
+    title: "Travel website",
     image: "/assets/project2d.jpg",
     description:
       "Allocentric Travels is a travel service company that curates adventurous and culturally rich experiences for bold, curious explorers.",
@@ -30,7 +31,8 @@ const projects = [
   {
     title: "Pregnancy  App",
     image: "/assets/project2b.jpg",
-    description: "Interactive UI for pregnant women",
+    description:
+      "Mamas Bloom is a supportive community and app designed to support pregnant and postnatal mothers with health tips, meal plans, appointment tracking and many more.",
     link: "https://www.behance.net/gallery/226568921/MAMAS-BLOOM",
   },
 ];
