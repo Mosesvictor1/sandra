@@ -18,7 +18,7 @@ export default function Services() {
     },
     {
       title: "Web Design",
-      img: "/assets/servweb.jpg", // Update with your actual image
+      img: "/assets/servw.avif", // Update with your actual image
       active: true,
       aos: "zoom-in",
     },
