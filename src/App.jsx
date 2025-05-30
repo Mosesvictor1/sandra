@@ -11,7 +11,7 @@ import WorkExperience from "./sections/WorkExperience";
 
 function App() {
   return (
-    <div className="h-screen bg-gradient-to-br from-orange-100 via-pink-100 to-red-100">
+    <div className="h-screen bg-gradient-to-br from-orange-100 via-pink-100 to-red-100 w-full overflow-x-clip">
       <NavBar />
       <main className=" bg-gradient-to-br from-orange-100 via-pink-100 to-red-100">
         <Hero />

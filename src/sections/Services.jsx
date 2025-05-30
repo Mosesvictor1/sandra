@@ -12,24 +12,21 @@ export default function Services() {
   const services = [
     {
       title: "UI/UX Design",
-      img: "/assets/uiux.png", // Update with your actual image
+      img: "/assets/servui2.jpg", // Update with your actual image
       active: false,
       aos: "fade-right",
-      link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
     },
     {
       title: "Web Design",
-      img: "/assets/webdesign.png", // Update with your actual image
+      img: "/assets/servweb.jpg", // Update with your actual image
       active: true,
       aos: "zoom-in",
-      link: "https://moses-care.vercel.app/",
     },
     {
       title: "Visual arts",
       img: "/assets/visual.jpg", // Update with your actual image
       active: false,
       aos: "fade-left",
-      link: "https://www.figma.com/design/JceAaJ8ewZZy0S2d2nX0dI/Food-Ordering-web-app-by-Victor-Moses?node-id=0-1&t=JyxcDw9cl2HsWb3f-1",
     },
   ];
 
@@ -69,12 +66,12 @@ export default function Services() {
                   <img
                     src={service.img}
                     alt={service.title}
-                    className="relative rounded-2xl w-full h-auto z-10"
+                    className="relative rounded-2xl w-full h-72 z-10"
                   />
                 </div>
 
                 {/* Arrow Button */}
-                <div className="absolute bottom-4 right-4 z-50">
+                {/* <div className="absolute bottom-4 right-4 z-50">
                  <a href={service.link} target="_blank">
                  <button
                     className={`rounded-full p-3 text-white text-4xl shadow-md transition ${
@@ -84,7 +81,7 @@ export default function Services() {
                     <FaArrowUpRightFromSquare />
                   </button>
                  </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
