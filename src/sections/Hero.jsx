@@ -9,7 +9,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="re relative overflow-hidden bg-gradient-to-br from-orange-100 via-pink-100 to-red-100">
+    <div className="re relative overflow-hidden bg-white">
       <div className="container mx-auto px-4 mt-20 relative">
         {/* Hello Bubble */}
         <div className="flex justify-center mb-6" data-aos="fade-down">
